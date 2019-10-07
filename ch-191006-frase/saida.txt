@@ -1,0 +1,49 @@
+    troca_palavra_na_frase()
+    frase ..........[azul]
+    palavra ........[azul]
+    palavra nova ...[abcd]
+
+    retornou 0
+
+    frase no final..[abcd]
+
+
+    troca_palavra_na_frase()
+    frase ..........[01234567890123456789]
+    palavra ........[XYZT]
+    palavra nova ...[abcd]
+
+    retornou -1
+
+    frase no final..[01234567890123456789]
+
+
+    troca_palavra_na_frase()
+    frase ..........[XYZT4567890123456789]
+    palavra ........[XYZT]
+    palavra nova ...[abcd]
+
+    retornou 0
+
+    frase no final..[abcd4567890123456789]
+
+
+    troca_palavra_na_frase()
+    frase ..........[01234567XYZT23456789]
+    palavra ........[XYZT]
+    palavra nova ...[abcd]
+
+    retornou 8
+
+    frase no final..[01234567abcd23456789]
+
+
+    troca_palavra_na_frase()
+    frase ..........[0123456789012345XYZT]
+    palavra ........[XYZT]
+    palavra nova ...[abcd]
+
+    retornou 16
+
+    frase no final..[0123456789012345abcd]
+
